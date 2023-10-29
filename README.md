@@ -29,8 +29,11 @@ A recurrent issue was the model’s occasional non-compliance with set rules and
 Despite these challenges, when tested with test_set.csv, the methods generally performed as expected. The inherent "black-box" nature of the model means that deriving the "best" answer often requires a trial-and-error approach. My findings indicate that the effectiveness of each method is contingent on the provided text; the same prompt can yield varying results depending on the text. However, certain prompt characteristics consistently led to more effective responses:
 
 A. Establishing a relevant system message to define the model's role.
+
 B. Prioritizing more critical instructions, as the model tends to follow earlier instructions more closely.
+
 C. Providing detailed, precise instructions and including exemplary examples only if beneficial.
+
 D. Clearly defining the expected output, including specifics of what should and should not be included in the response.
 
 
